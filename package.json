@@ -1,6 +1,6 @@
 {
   "name": "dummy-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dummy Node.js service for POC purposes",
   "main": "index.js",
   "scripts": {
