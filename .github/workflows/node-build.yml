@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # opcional: ejecutarlo a mano desde Actions
+
+jobs:
+  node-build:
+    uses: robbasualto/workflows/.github/workflows/node-build.yml@main
+    secrets: inherit
